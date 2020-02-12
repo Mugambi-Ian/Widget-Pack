@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progressColor">#000000</color>
+    <color name="colorPrimary">@color/progressColor</color>
+    <color name="colorPrimaryDark">@color/progressColor</color>
+    <color name="colorAccent">@color/progressColor</color>
+    <color name="passwordFieldColor">@color/progressColor</color>
+    <color name="dayPickerColor">@color/progressColor</color>
+</resources>

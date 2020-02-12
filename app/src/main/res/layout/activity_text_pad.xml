@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nenecorp.widgets.TextPadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Console"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp"
+            tools:ignore="OnClick" />
+
+        <ScrollView
+            android:id="@+id/ATP_log"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@android:color/black">
+
+            <TextView
+                android:id="@+id/ATP_logView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="textpad"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <nenecorp.widgets.TextPad
+            android:id="@+id/ATP_textpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            app:ptDrawable="@drawable/pb_background"
+            app:ptTextColor="@android:color/white"
+            app:ptItemHeight="60dp"
+            app:ptItemWidth="80dp"
+            app:ptItemMargin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <nenecorp.widgets.PasswordField
+                android:id="@+id/APF_bPasF"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone"
+                app:closedDrawable="@drawable/dr_closed_w"
+                app:fieldType="bordered"
+                app:openDrawable="@drawable/dr_opened_w" />
+
+            <nenecorp.widgets.PasswordField
+                android:id="@+id/APF_cPasF"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custombox"
+                android:visibility="gone"
+                app:closedDrawable="@drawable/dr_closed"
+                app:fieldType="custom"
+                app:openDrawable="@drawable/dr_opened" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

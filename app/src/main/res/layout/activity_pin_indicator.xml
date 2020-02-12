@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nenecorp.widgets.PinIndicatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Console"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp"
+            tools:ignore="OnClick" />
+
+        <ScrollView
+            android:id="@+id/API_log"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@android:color/black">
+
+            <TextView
+                android:id="@+id/API_logView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="Numpad"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <nenecorp.widgets.PinIndicator
+            android:id="@+id/API_pinIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            app:piBackground="@drawable/pi_cir"
+            app:piItemHeight="40dp"
+            app:piItemMargin="5dp"
+            app:piItemWidth="40dp"
+            app:piPinDrawable="@drawable/dr_asterick"
+            app:piPinLength="4" />
+
+        <nenecorp.widgets.NumPad
+            android:id="@+id/API_numpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:pnColor="@android:color/white"
+            app:pnDrawable="@drawable/pi_cir"
+            app:pnItemHeight="60dp"
+            app:pnItemWidth="60dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
