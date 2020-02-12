@@ -4,7 +4,7 @@ Widget pack is a UI/UX library designed for android developers who want develop 
 [Text Pad](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#text-pad), [ImageView](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#imageview), [Day Picker](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#preview-5) and [Animations](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#animations)  
 ##### Adding to project 
 #### Gradle
-step 1. Add the code below in your project/root build.gradle.  
+Step 1. Add the code below in your project/root build.gradle.  
 
 	allprojects {
 		repositories {
@@ -22,7 +22,7 @@ Step 2. Add the code below to your app build.gradle.
 	
 ## Progress Bar
 #### Preview
-[](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif)https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif
+![](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif)[](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif)
 ## Num Pad
 #### Preview
 ## Pin Indicator
