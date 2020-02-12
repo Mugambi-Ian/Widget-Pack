@@ -1,9 +1,9 @@
+[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 # Widget Pack
 Widget pack is a UI/UX library designed for android developers who want develop unique, reliable and responsive designs. The library includes the following:  
 [Progress Bar](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#progress-bar), [Num Pad](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#num-pad), [Pin Indicator](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#pin-indicator), [Password Field](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#password-field)  
 [Text Pad](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#text-pad), [ImageView](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#imageview), [Day Picker](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#preview-5) and [Animations](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#animations)  
-[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack)
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)  
 ##### Adding to project 
 #### Gradle
 Step 1. Add the code below in your project/root build.gradle.  
