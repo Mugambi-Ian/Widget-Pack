@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NeneCorp Widgets</string>
+    <string name="space"><![CDATA[<u> </u>]]></string>
+</resources>

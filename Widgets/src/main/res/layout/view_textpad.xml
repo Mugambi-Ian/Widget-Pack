@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/VT_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="_@#" />
+
+        <TextView
+            android:id="@+id/VT_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="abc"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="def"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/VT_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="ghi"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="jkl"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="mno"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/VT_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="pqrs"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="tuv"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="wxyz"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/VT_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="c"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/space"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/VT_del"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/box_textpad"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="del"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

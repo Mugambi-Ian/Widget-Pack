@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="progressColor">#000000</color>
+    <color name="passwordFieldColor">#1976D2</color>
+    <color name="dayPickerColor">#000</color>
+    <color name="numpadBoxColor">#000</color>
+    <color name="textpadBoxColor">#000</color>
+    <color name="pinIndicatorColor">#000</color>
+    <color name="indicatorColor">#fff</color>
+    <color name="imageViewColor">#747274</color>
+
+</resources>

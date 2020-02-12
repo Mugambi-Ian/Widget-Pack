@@ -1,0 +1,74 @@
+<resources>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="progressColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordField">
+        <attr name="fieldType" format="enum">
+            <enum name="bordered" value="1" />
+            <enum name="material" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+        <attr name="closedDrawable" format="reference" />
+        <attr name="openDrawable" format="reference" />
+        <attr name="customBackground" format="reference" />
+        <attr name="pfTextSize" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DayPicker">
+        <attr name="showTitle" format="boolean" />
+        <attr name="titleText" format="string" />
+        <attr name="selectedDrawable" format="reference" />
+        <attr name="unselectedDrawable" format="reference" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectedTextColor" format="color" />
+        <attr name="pickerOrientation" format="enum">
+            <enum name="horizontal" value="1" />
+            <enum name="vertical" value="2" />
+        </attr>
+        <attr name="dpItemHeight" format="dimension" />
+        <attr name="dpItemWidth" format="dimension" />
+        <attr name="dpItemMargin" format="dimension" />
+        <attr name="dpItemElevation" format="dimension" />
+        <attr name="dpTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NumPad">
+        <attr name="pnDrawable" format="reference" />
+        <attr name="pnColor" format="color" />
+        <attr name="pnItemHeight" format="dimension" />
+        <attr name="pnItemWidth" format="dimension" />
+        <attr name="pnItemMargin" format="dimension" />
+        <attr name="pnItemElevation" format="dimension" />
+        <attr name="pnTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextPad">
+        <attr name="ptDrawable" format="reference" />
+        <attr name="ptTextColor" format="color" />
+        <attr name="ptItemHeight" format="dimension" />
+        <attr name="ptItemWidth" format="dimension" />
+        <attr name="ptItemMargin" format="dimension" />
+        <attr name="ptItemElevation" format="dimension" />
+        <attr name="ptTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PinIndicator">
+        <attr name="piBackground" format="reference" />
+        <attr name="piPinDrawable" format="reference" />
+        <attr name="piPinLength" format="integer" />
+        <attr name="piItemWidth" format="dimension" />
+        <attr name="piItemHeight" format="dimension" />
+        <attr name="piItemMargin" format="dimension" />
+        <attr name="piItemElevation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageView">
+        <attr name="fileUrl" format="string" />
+        <attr name="viewType" format="enum">
+            <enum name="circular" value="2" />
+            <enum name="regular" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
