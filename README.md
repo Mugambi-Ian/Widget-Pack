@@ -23,6 +23,16 @@ Step 2. Add the code below to your app build.gradle.
 ## Progress Bar
 #### Preview
 ![](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif)	![](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_yellow.gif)
+### Usage
+* Add this code to your xml layout.
+
+  	 <nenecorp.widgets.ProgressBar  
+	 	android:id="@+id/_progressBar"  
+		android:layout_width="wrap_content"  
+		android:layout_height="wrap_content"/>
+	    
+	    
+
 ## Num Pad
 #### Preview
 ## Pin Indicator
