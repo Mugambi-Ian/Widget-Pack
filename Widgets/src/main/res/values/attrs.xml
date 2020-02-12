@@ -1,9 +1,5 @@
 <resources>
 
-    <declare-styleable name="ProgressBar">
-        <attr name="progressColor" format="color" />
-    </declare-styleable>
-
     <declare-styleable name="PasswordField">
         <attr name="fieldType" format="enum">
             <enum name="bordered" value="1" />

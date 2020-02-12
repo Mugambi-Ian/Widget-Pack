@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.nenecorp.widgets.ImageViewActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
+        <activity android:name="com.nenecorp.widgets.ImageViewActivity"></activity>
         <activity android:name="com.nenecorp.widgets.NumPadActivity"></activity>
         <activity android:name="com.nenecorp.widgets.DayPickerActivity"></activity>
         <activity android:name="com.nenecorp.widgets.PinIndicatorActivity"></activity>
         <activity android:name="com.nenecorp.widgets.PasswordFieldActivity" />
         <activity android:name="com.nenecorp.widgets.Home" />
         <activity android:name="com.nenecorp.widgets.ProgressBarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.nenecorp.widgets.TextPadActivity"></activity>
     </application>
