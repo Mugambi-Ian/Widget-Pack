@@ -69,13 +69,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            app:pnItemWidth="60dp"
+            android:orientation="horizontal"
+            app:pnColor="@color/progressColor"
+            app:pnDrawable="@drawable/custombox"
             app:pnItemHeight="60dp"
             app:pnItemMargin="5dp"
-            app:pnDrawable="@drawable/pi_cir"
-            app:pnColor="@android:color/white"
-            android:orientation="horizontal" />
-
+            app:pnItemWidth="60dp" />
 
 
     </LinearLayout>

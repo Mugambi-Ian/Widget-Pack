@@ -15,7 +15,7 @@
         <activity android:name="com.nenecorp.widgets.PinIndicatorActivity"></activity>
         <activity android:name="com.nenecorp.widgets.PasswordFieldActivity" />
         <activity android:name="com.nenecorp.widgets.Home" />
-        <activity android:name="com.nenecorp.widgets.ProgressBarActivity">
+        <activity android:name="com.nenecorp.widgets.ProgressBarJava">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
