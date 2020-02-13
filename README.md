@@ -99,6 +99,9 @@ progressBar.updateProgess(20)
 * The onComplete method is called when the progress is marked complete.
 ## Num Pad
 #### Preview
+![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/np_01.png) ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/np_02.png) ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/np_01.png) 
+# Usage
+
 ## Pin Indicator
 #### Preview
 ## Password Field
