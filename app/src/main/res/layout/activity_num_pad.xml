@@ -70,8 +70,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:orientation="horizontal"
-            app:pnColor="@color/progressColor"
-            app:pnDrawable="@drawable/custombox"
+
             app:pnItemHeight="60dp"
             app:pnItemMargin="5dp"
             app:pnItemWidth="60dp" />
