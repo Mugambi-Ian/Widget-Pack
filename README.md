@@ -96,7 +96,7 @@ progressBar.updateProgess(20);
 ```kotlin
 progressBar.updateProgess(20)
 ```
-* The onComplete method is called when the timer runs out.
+* The onComplete method is called when the progress is marked complete.
 ## Num Pad
 #### Preview
 ## Pin Indicator
