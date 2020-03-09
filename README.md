@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack)
+[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack/1.0.1)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 # Widget Pack
 Widget pack is a UI/UX library designed for android developers who want develop unique, reliable and responsive designs. The library includes the following:  
@@ -26,7 +26,7 @@ Step 2. Add the code below to your app build.gradle.
 
 	dependencies {
 		...
-	        implementation 'com.github.Mugambi-Ian:Widget-Pack:1.0.0'
+	        implementation 'com.github.Mugambi-Ian:Widget-Pack:1.0.1'
 	}  
 	
 ## Progress Bar
