@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack)
+[![](https://jitpack.io/v/Mugambi-Ian/Widget-Pack.svg)](https://jitpack.io/#Mugambi-Ian/Widget-Pack/1.0.1)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 # Widget Pack
 Widget pack is a UI/UX library designed for android developers who want develop unique, reliable and responsive designs. The library includes the following:  
@@ -26,7 +26,7 @@ Step 2. Add the code below to your app build.gradle.
 
 	dependencies {
 		...
-	        implementation 'com.github.Mugambi-Ian:Widget-Pack:1.0.0'
+	        implementation 'com.github.Mugambi-Ian:Widget-Pack:1.0.1'
 	}  
 	
 ## Progress Bar
@@ -101,7 +101,40 @@ progressBar.updateProgess(20)
 #### Preview
 ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pn_01.png) ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pn_03.png) 
 # Usage
-
+* To use this widget add this code to your layout xml file.
+```xml
+<nenecorp.widgets.NumPad
+            android:id="@+id/ANP_numpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            app:pnColor="#75FF00"
+            app:pnTextSize="16px"
+            app:pnDrawable="@drawable/custombox"
+            app:pnItemHeight="60dp"
+            app:pnItemMargin="2dp"
+            app:pnItemWidth="60dp" />
+```  
+* To use this widget programmatically add this code to your activity class.  
+##### Java
+```java
+     NumPad numPad = findViewById(R.id.numpad);
+     numPad.setInputListener(new NumPad.InputListener() {
+	@Override
+	public void onInputChanged(String number) {
+	//output from numpad
+	}
+     });
+```
+##### Kotlin
+```kotlin
+	val numPad = findViewById<NumPad>(R.id.ANP_numpad)
+        numPad.setInputListener { number -> {
+	// output from numpad
+	}
+```
 ## Pin Indicator
 #### Preview
 ## Password Field
