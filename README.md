@@ -5,7 +5,7 @@ Widget pack is a UI/UX library designed for android developers who want develop 
 * [Progress Bar](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#progress-bar)  
 * [Num Pad](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#num-pad)  
 * [Pin Indicator](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#pin-indicator)  
-* [Password Field](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#password-field)  
+* [Password Field](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#password-field)
 * [Text Pad](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#text-pad)  
 * [ImageView](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#imageview)  
 * [Day Picker](https://github.com/Mugambi-Ian/Widget-Pack/blob/master/README.md#preview-5)  
@@ -33,14 +33,14 @@ Step 2. Add the code below to your app build.gradle.
 #### Preview
 ![](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_black.gif)	![](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pb_yellow.gif)
 ### Usage
-* To use this widget add this code to your layout xml file.
+To use this widget add this code to your layout xml file.
 ```xml
 <nenecorp.widgets.ProgressBar  
 	android:id="@+id/_progressBar"  
 	android:layout_width="wrap_content"  
 	android:layout_height="wrap_content"/>
 ```  
-* To change the progress bar color, add color resource "progressColor" to res/values/colors.xml .  
+To change the progress bar color, add color resource "progressColor" to res/values/colors.xml .  
 ```xml 
 <resources>
     ...
@@ -48,7 +48,7 @@ Step 2. Add the code below to your app build.gradle.
     ...
 </resources>
 ```  
-* To use this widget as a timer, add this code to your activity file.
+To use this widget as a timer, add this code to your activity file.
 ##### Java
 ```java 
 ProgressBar progressBar = findViewById(R.id._progressBar);
@@ -68,7 +68,7 @@ progressBar.newTimer(3000) {
 
 ```  
 method "newTimer" has a parameter for the timer duration in miliseconds.  
-* To use this widget as a progress bar, add this code to your activity class.
+To use this widget as a progress bar, add this code to your activity class.
 ##### Java
 ```java
 ProgressBar progressBar = findViewById(R.id._progressBar);
@@ -87,7 +87,7 @@ progressBar.initializeProgress(100, 0) 	{
 	}
 ```
 method "initializeProgress" has a parameter for max and current progress.  
-* To update progress use method "updateProgress".  
+To update progress use method "updateProgress".  
 ##### Java
 ```java
 progressBar.updateProgess(20);
@@ -96,12 +96,12 @@ progressBar.updateProgess(20);
 ```kotlin
 progressBar.updateProgess(20)
 ```
-* The onComplete method is called when the progress is marked complete.
+The onComplete method is called when the progress is marked complete.
 ## Num Pad
 #### Preview
 ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pn_01.png) ![Image](https://github.com/Mugambi-Ian/Widget-Pack/raw/master/Widgets/Preview/pn_03.png) 
 # Usage
-* To use this widget add this code to your layout xml file.
+To use this widget add this code to your layout xml file.
 ```xml
 <nenecorp.widgets.NumPad
             android:id="@+id/ANP_numpad"
@@ -117,7 +117,7 @@ progressBar.updateProgess(20)
             app:pnItemMargin="2dp"
             app:pnItemWidth="60dp" />
 ```  
-* To use this widget programmatically add this code to your activity class.  
+To use this widget programmatically add this code to your activity class.  
 ##### Java
 ```java
      NumPad numPad = findViewById(R.id.numpad);
